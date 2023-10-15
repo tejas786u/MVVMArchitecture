@@ -99,13 +99,10 @@
 		7565F93A2ADBD69B00E1D52C /* MVVMArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				7565F93B2ADBD69B00E1D52C /* AppDelegate.swift */,
-				7565F93D2ADBD69B00E1D52C /* SceneDelegate.swift */,
-				7565F93F2ADBD69B00E1D52C /* ViewController.swift */,
-				7565F9412ADBD69B00E1D52C /* Main.storyboard */,
-				7565F9442ADBD69C00E1D52C /* Assets.xcassets */,
-				7565F9462ADBD69C00E1D52C /* LaunchScreen.storyboard */,
-				7565F9492ADBD69C00E1D52C /* Info.plist */,
+				7565F96B2ADBD6F900E1D52C /* Model */,
+				7565F96C2ADBD6FF00E1D52C /* View */,
+				7565F96D2ADBD70500E1D52C /* ViewModel */,
+				7565F96E2ADBD71500E1D52C /* SupportingFiles */,
 			);
 			path = MVVMArchitecture;
 			sourceTree = "<group>";
@@ -125,6 +122,41 @@
 				7565F95E2ADBD69C00E1D52C /* MVVMArchitectureUITestsLaunchTests.swift */,
 			);
 			path = MVVMArchitectureUITests;
+			sourceTree = "<group>";
+		};
+		7565F96B2ADBD6F900E1D52C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7565F96C2ADBD6FF00E1D52C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7565F93F2ADBD69B00E1D52C /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7565F96D2ADBD70500E1D52C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7565F96E2ADBD71500E1D52C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7565F93B2ADBD69B00E1D52C /* AppDelegate.swift */,
+				7565F93D2ADBD69B00E1D52C /* SceneDelegate.swift */,
+				7565F9412ADBD69B00E1D52C /* Main.storyboard */,
+				7565F9442ADBD69C00E1D52C /* Assets.xcassets */,
+				7565F9462ADBD69C00E1D52C /* LaunchScreen.storyboard */,
+				7565F9492ADBD69C00E1D52C /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
