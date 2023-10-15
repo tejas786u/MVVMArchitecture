@@ -1,0 +1,61 @@
+{
+  "countries": [
+    {
+      "name": "United States",
+      "states": [
+        {
+          "name": "New York",
+          "cities": [
+            "New York",
+            "Los Angeles",
+            "San Francisco"
+          ]
+        },
+        {
+          "name": "California",
+          "cities": [
+            "Los Angeles",
+            "San Francisco"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Canada",
+      "states": [
+        {
+          "name": "Ontario",
+          "cities": [
+            "Toronto"
+          ]
+        },
+        {
+          "name": "British Columbia",
+          "cities": [
+            "Vancouver"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "states": [
+        {
+          "name": "Gujarat",
+          "cities": [
+            "Surat",
+            "Navsari",
+            "Bharuch"
+          ]
+        },
+        {
+          "name": "Maharastra",
+          "cities": [
+            "Mumbai",
+            "Pune"
+          ]
+        }
+      ]
+    }
+  ]
+}
