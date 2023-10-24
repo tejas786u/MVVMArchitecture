@@ -50,3 +50,33 @@ class BoardVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
         return cell
     }
 }
+
+//struct ChessboardView: View {
+//    @State private var matrixSizeText = ""
+//    @State private var matrixSize = 0
+//
+//    var body: some View {
+//        VStack {
+//            TextField("Enter matrix size", text: $matrixSizeText, onCommit: {
+//                if let size = Int(matrixSizeText) {
+//                    matrixSize = size
+//                }
+//            })
+//            .textFieldStyle(RoundedBorderTextFieldStyle())
+//            .padding()
+//
+//            if matrixSize > 0 {
+//                ForEach(0..<matrixSize, id: \.self) { row in
+//                    HStack {
+//                        ForEach(0..<matrixSize, id: \.self) { column in
+//                            Rectangle()
+//                                .frame(width: 50, height: 50)
+//                                .foregroundColor(.blue)
+//                        }
+//                    }
+//                }
+//            }
+//        }
+//        .padding()
+//    }
+//}
