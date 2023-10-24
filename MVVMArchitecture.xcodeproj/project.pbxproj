@@ -34,6 +34,7 @@
 		75C487592ADC329D00B7B205 /* CSCDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C487582ADC329D00B7B205 /* CSCDataModel.swift */; };
 		75C4875B2ADC33D600B7B205 /* EmployeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C4875A2ADC33D600B7B205 /* EmployeeVC.swift */; };
 		75C4875E2ADC35B800B7B205 /* EmpCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75C4875C2ADC35B800B7B205 /* EmpCoreData.xcdatamodeld */; };
+		75CEB4D92AE828C9002D39B9 /* BoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CEB4D82AE828C9002D39B9 /* BoardVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		75C487582ADC329D00B7B205 /* CSCDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSCDataModel.swift; sourceTree = "<group>"; };
 		75C4875A2ADC33D600B7B205 /* EmployeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeVC.swift; sourceTree = "<group>"; };
 		75C4875D2ADC35B800B7B205 /* EmpCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmpCoreData.xcdatamodel; sourceTree = "<group>"; };
+		75CEB4D82AE828C9002D39B9 /* BoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				7565F97A2ADBF4A400E1D52C /* CitiesVC.swift */,
 				75C4875A2ADC33D600B7B205 /* EmployeeVC.swift */,
 				7510F1B32ADC578E001D7F97 /* logicalQuestions.swift */,
+				75CEB4D82AE828C9002D39B9 /* BoardVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				7510F1B02ADC542B001D7F97 /* CoreDataHelper.swift in Sources */,
 				7565F97B2ADBF4A400E1D52C /* CitiesVC.swift in Sources */,
 				7565F9752ADBEE9D00E1D52C /* Countries.swift in Sources */,
+				75CEB4D92AE828C9002D39B9 /* BoardVC.swift in Sources */,
 				75C4875B2ADC33D600B7B205 /* EmployeeVC.swift in Sources */,
 				7510F1B42ADC578E001D7F97 /* logicalQuestions.swift in Sources */,
 				75C487592ADC329D00B7B205 /* CSCDataModel.swift in Sources */,
