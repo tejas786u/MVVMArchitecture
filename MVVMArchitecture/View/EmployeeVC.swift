@@ -45,4 +45,8 @@ extension EmployeeVC: UITableViewDataSource, UITableViewDelegate{
         cell.textLabel?.text = names[indexPath.row]
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "Boardview", sender: nil)
+    }
 }
